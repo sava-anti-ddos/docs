@@ -51,7 +51,7 @@
 <li class="toctree-l3 current"><a class="current reference internal" href="#">device</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#src-device-acl-helper-module">src.device.acl_helper module</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#module-src.device.config">src.device.config module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#src-device-config-module">src.device.config module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#src-device-main-module">src.device.main module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#src-device-monitor-module">src.device.monitor module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#src-device-packet-filter-module">src.device.packet_filter module</a></li>
@@ -100,75 +100,8 @@
 <section id="src-device-acl-helper-module">
 <h2>src.device.acl_helper module<a class="headerlink" href="#src-device-acl-helper-module" title="Link to this heading"></a></h2>
 </section>
-<section id="module-src.device.config">
-<span id="src-device-config-module"></span><h2>src.device.config module<a class="headerlink" href="#module-src.device.config" title="Link to this heading"></a></h2>
-<dl class="py class">
-<dt class="sig sig-object py" id="src.device.config.Config">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">src.device.config.</span></span><span class="sig-name descname"><span class="pre">Config</span></span><a class="headerlink" href="#src.device.config.Config" title="Link to this definition"></a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<p>Configuration class for device settings.</p>
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.cache_max_size">
-<span class="sig-name descname"><span class="pre">cache_max_size</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1024</span></em><a class="headerlink" href="#src.device.config.Config.cache_max_size" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.cache_path">
-<span class="sig-name descname"><span class="pre">cache_path</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/tmp/'</span></em><a class="headerlink" href="#src.device.config.Config.cache_path" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.controller_ip">
-<span class="sig-name descname"><span class="pre">controller_ip</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'127.0.0.1'</span></em><a class="headerlink" href="#src.device.config.Config.controller_ip" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.controller_port">
-<span class="sig-name descname"><span class="pre">controller_port</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'13145'</span></em><a class="headerlink" href="#src.device.config.Config.controller_port" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.heartbeat_interval">
-<span class="sig-name descname"><span class="pre">heartbeat_interval</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">60</span></em><a class="headerlink" href="#src.device.config.Config.heartbeat_interval" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.log_path">
-<span class="sig-name descname"><span class="pre">log_path</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/var/log/'</span></em><a class="headerlink" href="#src.device.config.Config.log_path" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.reconnect_interval">
-<span class="sig-name descname"><span class="pre">reconnect_interval</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#src.device.config.Config.reconnect_interval" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.sniffer_file_name">
-<span class="sig-name descname"><span class="pre">sniffer_file_name</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'sniffer.csv'</span></em><a class="headerlink" href="#src.device.config.Config.sniffer_file_name" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.sniffer_file_path">
-<span class="sig-name descname"><span class="pre">sniffer_file_path</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/tmp/'</span></em><a class="headerlink" href="#src.device.config.Config.sniffer_file_path" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.sniffer_interface">
-<span class="sig-name descname"><span class="pre">sniffer_interface</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'eth0'</span></em><a class="headerlink" href="#src.device.config.Config.sniffer_interface" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.sniffer_queue_size">
-<span class="sig-name descname"><span class="pre">sniffer_queue_size</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1024</span></em><a class="headerlink" href="#src.device.config.Config.sniffer_queue_size" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="src.device.config.Config.sniffer_upload_interval">
-<span class="sig-name descname"><span class="pre">sniffer_upload_interval</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">15</span></em><a class="headerlink" href="#src.device.config.Config.sniffer_upload_interval" title="Link to this definition"></a></dt>
-<dd></dd></dl>
-
-</dd></dl>
-
+<section id="src-device-config-module">
+<h2>src.device.config module<a class="headerlink" href="#src-device-config-module" title="Link to this heading"></a></h2>
 </section>
 <section id="src-device-main-module">
 <h2>src.device.main module<a class="headerlink" href="#src-device-main-module" title="Link to this heading"></a></h2>
